@@ -3,8 +3,8 @@ FROM ubuntu:latest
 
 WORKDIR /app
 
-COPY Docker-1.0.0.jar Docker.jar
+COPY target/Docker-1.0-SNAPSHOT.jar ./
 
 EXPOSE 8080
 
-ENTRYPOINT ["java", "-jar", "Docker.jar"]
+ENTRYPOINT ["java", "-jar", "Docker-1.0-SNAPSHOT.jar"]
