@@ -55,7 +55,8 @@ jobs:
           context: .
           dockerfile: Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/${{ github.event.pipelineDemo  }}:latest
+          tags: rossypotentials/pipelineDemo:latest
+
 
 
 
