@@ -32,7 +32,7 @@ jobs:
           context: .
           dockerfile: Dockerfile
           push: true
-          tags: rossypotentials/pipelineDemo:latest
+          tags: rossypotentials/git-demo:latest
           #docker push
 
       #      - name: Login to Docker Hub
@@ -55,7 +55,7 @@ jobs:
           context: .
           dockerfile: Dockerfile
           push: true
-          tags: rossypotentials/pipelineDemo:latest
+          tags: rossypotentials/git-demo:latest
 
 
 
